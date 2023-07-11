@@ -1,0 +1,433 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+
+.top_bar {
+    width: 1226px;
+    height: 40px;
+    background-color: #333;
+    color: #b0b0b0;
+    font-size: 12px;
+    line-height: 40px;
+    margin: 0px auto;
+
+}
+
+.top_bar_left li {
+    float: left;
+}
+
+.top_bar_left a {
+    color: #b0b0b0;
+}
+
+.line {
+    float: left;
+    background-color: #424242;
+    width: 1px;
+    height: 13px;
+    margin: 15px 8px 12px;
+}
+
+.top_bar_right {
+    float: right;
+    color: #b0b0b0;
+
+}
+
+.top_bar_right li {
+    float: left;
+    color: #b0b0b0;
+}
+
+.top_bar_right a {
+    color: #b0b0b0;
+}
+
+.cart img {
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.fas fa-shopping-cart {
+    font-size: 12px;
+    color: #b0b0b0
+}
+
+.top_bar a:hover {
+    color: aliceblue;
+}
+
+.cart {
+    width: 120px;
+    margin-left: 25px;
+    text-align: center;
+    position: relative;
+    /* border: 1px solid transparent; */
+    /* z-index: 32; */
+
+}
+
+.cart_centent {
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: none;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0, .3);
+    /* z-index: 31; */
+}
+
+.cart:hover {
+    background-color: #fff;
+    /* border: 1px solid #fff; */
+}
+
+.cart:hover a {
+    color: orangered;
+}
+
+.cart:hover i {
+    color: orangered;
+}
+
+.cart:hover .cart_centent {
+    display: block;
+}
+
+.top_second {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.logo_search {
+    background-color: #fff;
+    width: 1226px;
+    height: 100px;
+    margin: 0px auto;
+    /* position: relative; */
+}
+
+.logo {
+    position: absolute;
+    top: 63px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+}
+
+.hot {
+    margin-left: 300px;
+
+}
+
+.hot a {
+    float: left;
+    line-height: 100px;
+    margin: 0px 5px;
+    font-size: 16px;
+    color: #616161;
+}
+
+.hot a:hover {
+    color: orangered;
+}
+
+.search {
+    float: right;
+    /* line-height: 100px; */
+    /* margin-right: 0px; */
+    width: 298px;
+    height: 50px;
+
+
+}
+
+.search input {
+    width: 246px;
+    height: 50px;
+    border: 1px solid #b0b0b0;
+    box-sizing: border-box;
+    margin-top: 25px;
+    float: left;
+    outline: none;
+}
+
+.search input:focus {
+    border-color: orangered;
+
+}
+
+.search .inp:focus~button {
+    border-color: orangered;
+
+}
+
+
+.search button {
+    width: 52px;
+    height: 50px;
+    margin-left: -1px;
+    border: 1px solid #b0b0b0;
+    background-color: #fff;
+    margin-top: 25px;
+    float: left;
+
+
+}
+
+.search .fas {
+    font-size: 18px;
+    color: #616161;
+}
+
+.search button:hover {
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.search button:hover .fas {
+    color: #fff
+}
+
+.search button:hover+input {
+    border: 1px solid #616161
+}
+
+.hot_bottom {
+    /* width: 100%;
+    height: 210px;
+    position: absolute;
+    background-color: #fff;
+    top: 140px;
+    left: 0px;
+    border-top: 1px solid #b0b0b0;
+    box-shadow: 0px 2px 3px rgb(0, 0, 0, .3); */
+    display: none;
+}
+
+.have_bottom:hover~.hot_bottom,
+.hot_bottom:hover {
+    display: block;
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    background-color: #fff;
+    top: 140px;
+    left: 0px;
+    border-top: 1px solid #b0b0b0;
+    box-shadow: 0px 2px 3px rgb(0, 0, 0, .3);
+    z-index: 9999;
+}
+
+.phones {
+    width: 1226px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+.phones li {
+    float: left;
+}
+
+.phones li:first-child {
+    margin-left: 60px;
+}
+
+.phones a {
+    display: block;
+}
+
+.phones img {
+    width: 90px;
+    height: 110px;
+    margin-top: 25px;
+}
+
+.line2 {
+    width: 1px;
+    height: 110px;
+    background-color: #b0b0b0;
+    margin: 25px 50px 75px;
+}
+
+.phones h5,
+.phones h6 {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.phones h5 {
+    color: #616161;
+    margin-top: -30px;
+}
+
+.phones h6 {
+    color: orangered;
+}
+
+.nav_banner {
+    width: 1226px;
+    height: 460px;
+    background-color: #bfa;
+    margin: 0px auto;
+    position: relative;
+}
+
+.nav_banner .banner img {
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+}
+
+.dot {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.dot li{
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(143, 138, 138);
+    float: left;
+    margin-right: 5px;
+    border: 2px solid #bab4b4;
+    box-sizing: content-box;
+}
+.dot a{
+    display: block;
+    width: 8px;
+    height: 8px;
+}
+
+.dot li:hover {
+    background-color: #fff;
+}
+
+.left_nav {
+    width: 234px;
+    height: 420px;
+    background-color: rgb(155, 155, 161, .8);
+    padding: 20px 0px;
+    position: relative;
+
+}
+
+.nav a {
+    display: block;
+    width: 194px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0px 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav .fas {
+    float: right;
+    font-size: 18px;
+    /* margin-top: 12px; */
+    line-height: 42px;
+}
+
+.nav a:hover {
+    background-color: orange;
+}
+
+.goods {
+    width: 0px;
+    overflow: hidden;
+    height: 458px;
+    position: absolute;
+    top: 0px;
+    left: 234px;
+    transition: width 0.2s;
+    background-color: #fff;
+    /* display: none; */
+}
+
+.left_nav .nav:hover~.goods {
+    /* display: block; */
+    width: 992px;
+    border: 1px solid #b0b0b0;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, .2);
+}
+
+.advertise{
+    width: 1226px;
+    height: 170px;
+    background-color: #fff;
+    margin: 16px auto;
+}
+
+.advertise_left{
+    width: 234px;
+    height: 170px;
+    background-color: #7d7979;
+    float: left;
+    margin-right: 2px;
+}
+
+.item a{
+    width: 55px;
+    height: 50px;
+    display: block;
+    color:rgb(227, 223, 223);
+    font-size: 13px;
+    text-align: center;
+    float: left;
+    line-height: 1.5;
+    padding: 22px 11px 11px;
+}
+.item a:hover{
+    color:#fff
+
+}
+
+.item .fas{
+    font-size: 20px;
+}
+.line_ver{
+    width: 1px;
+    height: 70px;
+    background-color: rgb(175, 171, 171);
+    float: left;
+    margin-top: 7px;
+}
+
+.line_hor{
+    width: 70px;
+    height: 1px;
+    background-color: rgb(175, 171, 171);
+    float: left;
+    margin: 0px 4px;
+    
+}
+
+.advertise_right img{
+    width: 316px;
+    height: 170px;
+    float: left;
+    margin-left: 14px;
+}
